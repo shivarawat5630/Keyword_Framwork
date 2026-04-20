@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KeywordFramework]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LandingPageTest(failed)">
+    <classes>
+      <class name="testcase.LandingPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="executeKeywords"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcase.LandingPageTest -->
+    </classes>
+  </test> <!-- LandingPageTest(failed) -->
+</suite> <!-- Failed suite [KeywordFramework] -->
